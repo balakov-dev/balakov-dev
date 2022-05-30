@@ -1,0 +1,483 @@
+local Premium = Instance.new("ScreenGui")
+local Open = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local PremiumFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Open_2 = Instance.new("TextButton")
+local Credits = Instance.new("TextButton")
+local Notes = Instance.new("TextButton")
+local PlayerText = Instance.new("TextLabel")
+local PlayerLabel = Instance.new("TextLabel")
+local Credits_2 = Instance.new("TextLabel")
+local Working = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local IDLabel = Instance.new("TextLabel")
+local Premium_2 = Instance.new("Frame")
+local HIDEPREMIUM = Instance.new("TextButton")
+local DELETEPREMIUM = Instance.new("TextButton")
+local Working_2 = Instance.new("TextLabel")
+local Working_3 = Instance.new("TextLabel")
+local WNWBigBlocks = Instance.new("TextButton")
+local WNWMoneyFkr = Instance.new("TextButton")
+local WNWDeletarWorkspace = Instance.new("TextButton")
+local Working_4 = Instance.new("TextLabel")
+local Working_5 = Instance.new("TextLabel")
+local WPuxararmas = Instance.new("TextButton")
+local Credits_3 = Instance.new("TextLabel")
+local IDLabel_2 = Instance.new("TextLabel")
+local Title_2 = Instance.new("TextLabel")
+local Version_2 = Instance.new("TextLabel")
+local Working_6 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+Premium.Name = "Premium"
+Premium.Parent = game.CoreGui
+Premium.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Open.Name = "Open"
+Open.Parent = Premium
+Open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open.BackgroundTransparency = 0.500
+Open.Position = UDim2.new(0.470999986, 0, -0.0390000008, 0)
+Open.Size = UDim2.new(0, 243, 0, 28)
+Open.Font = Enum.Font.SciFi
+Open.Text = "Balakkov$ [v0.1]"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 25.000
+Open.TextWrapped = true
+Open.Active = true
+Open.Draggable = false
+
+UICorner.Parent = Open
+
+PremiumFrame.Name = "PremiumFrame"
+PremiumFrame.Parent = Premium
+PremiumFrame.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+PremiumFrame.BackgroundTransparency = 0.100
+PremiumFrame.Position = UDim2.new(0.405509323, 0, 0.290109903, 0)
+PremiumFrame.Size = UDim2.new(0, 450, 0, 434)
+PremiumFrame.Visible = false
+PremiumFrame.Active = true
+PremiumFrame.Draggable = true
+
+UICorner_2.Parent = PremiumFrame
+
+Title.Name = "Title"
+Title.Parent = PremiumFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.275555551, 0, 0, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.SciFi
+Title.Text = "Balakov$ [v0.1]"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 25.000
+
+Open_2.Name = "Open"
+Open_2.Parent = PremiumFrame
+Open_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open_2.BackgroundTransparency = 1.000
+Open_2.BorderSizePixel = 0
+Open_2.Position = UDim2.new(0.275555551, 0, 0.5, 0)
+Open_2.Size = UDim2.new(0, 200, 0, 50)
+Open_2.Font = Enum.Font.SciFi
+Open_2.LineHeight = 0.900
+Open_2.Text = "Inject: Balakov$ [v0.1]"
+Open_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open_2.TextSize = 25.000
+
+Credits.Name = "Credits"
+Credits.Parent = PremiumFrame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.275555551, 0, 0.652073741, 0)
+Credits.Size = UDim2.new(0, 200, 0, 50)
+Credits.Font = Enum.Font.SciFi
+Credits.LineHeight = 0.900
+Credits.Text = "Credits (Unavailable)"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 25.000
+
+Notes.Name = "Notes"
+Notes.Parent = PremiumFrame
+Notes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Notes.BackgroundTransparency = 1.000
+Notes.BorderSizePixel = 0
+Notes.Position = UDim2.new(0.275555551, 0, 0.338709712, 0)
+Notes.Size = UDim2.new(0, 200, 0, 50)
+Notes.Font = Enum.Font.SciFi
+Notes.LineHeight = 0.900
+Notes.Text = "Notes (Unavailable)"
+Notes.TextColor3 = Color3.fromRGB(255, 255, 255)
+Notes.TextSize = 25.000
+
+PlayerText.Name = "PlayerText"
+PlayerText.Parent = PremiumFrame
+PlayerText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerText.BackgroundTransparency = 1.000
+PlayerText.Position = UDim2.new(0.133333325, 0, 0.0760368705, 0)
+PlayerText.Size = UDim2.new(0, 200, 0, 50)
+PlayerText.Font = Enum.Font.SciFi
+PlayerText.Text = "Welcome,"
+PlayerText.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerText.TextSize = 15.000
+
+PlayerLabel.Name = "PlayerLabel"
+PlayerLabel.Parent = PremiumFrame
+PlayerLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerLabel.BackgroundTransparency = 1.000
+PlayerLabel.Position = UDim2.new(0.431111068, 0, 0.0760368705, 0)
+PlayerLabel.Size = UDim2.new(0, 200, 0, 50)
+PlayerLabel.Font = Enum.Font.SciFi
+PlayerLabel.Text = "player"
+PlayerLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerLabel.TextSize = 15.000
+
+Credits_2.Name = "Credits"
+Credits_2.Parent = PremiumFrame
+Credits_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_2.BackgroundTransparency = 1.000
+Credits_2.Position = UDim2.new(-0.102222219, 0, 0.917050719, 0)
+Credits_2.Size = UDim2.new(0, 200, 0, 50)
+Credits_2.Font = Enum.Font.SciFi
+Credits_2.Text = "Balakkov$#0688"
+Credits_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits_2.TextSize = 15.000
+
+Working.Name = "Working"
+Working.Parent = PremiumFrame
+Working.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Working.BackgroundTransparency = 1.000
+Working.Position = UDim2.new(0.657777786, 0, 0.873271942, 0)
+Working.Size = UDim2.new(0, 200, 0, 88)
+Working.Font = Enum.Font.SciFi
+Working.Text = "Working at 30/05"
+Working.TextColor3 = Color3.fromRGB(255, 255, 255)
+Working.TextSize = 15.000
+
+Version.Name = "Version"
+Version.Parent = PremiumFrame
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.275555551, 0, 0.873271942, 0)
+Version.Size = UDim2.new(0, 200, 0, 88)
+Version.Font = Enum.Font.SciFi
+Version.Text = "[v0.1]"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 15.000
+
+IDLabel.Name = "IDLabel"
+IDLabel.Parent = PremiumFrame
+IDLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IDLabel.BackgroundTransparency = 1.000
+IDLabel.Position = UDim2.new(0.275555491, 0, 0.223502278, 0)
+IDLabel.Size = UDim2.new(0, 200, 0, 50)
+IDLabel.Font = Enum.Font.SciFi
+IDLabel.Text = "player"
+IDLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+IDLabel.TextSize = 20.000
+
+Premium_2.Name = "Premium"
+Premium_2.Parent = Premium
+Premium_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Premium_2.BackgroundTransparency = 0.100
+Premium_2.Position = UDim2.new(0.405509323, 0, 0.290109903, 0)
+Premium_2.Size = UDim2.new(0, 450, 0, 434)
+Premium_2.Visible = false
+
+HIDEPREMIUM.Name = "HIDEPREMIUM"
+HIDEPREMIUM.Parent = Premium_2
+HIDEPREMIUM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HIDEPREMIUM.BackgroundTransparency = 1.000
+HIDEPREMIUM.Position = UDim2.new(0, 0, 0.758064508, 0)
+HIDEPREMIUM.Size = UDim2.new(0, 200, 0, 50)
+HIDEPREMIUM.Font = Enum.Font.SciFi
+HIDEPREMIUM.Text = "HIDE BALAKOV$"
+HIDEPREMIUM.TextColor3 = Color3.fromRGB(255, 255, 255)
+HIDEPREMIUM.TextSize = 29.000
+HIDEPREMIUM.TextWrapped = true
+
+DELETEPREMIUM.Name = "DELETEPREMIUM"
+DELETEPREMIUM.Parent = Premium_2
+DELETEPREMIUM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DELETEPREMIUM.BackgroundTransparency = 1.000
+DELETEPREMIUM.Position = UDim2.new(0.548888862, 0, 0.758064508, 0)
+DELETEPREMIUM.Size = UDim2.new(0, 200, 0, 50)
+DELETEPREMIUM.Font = Enum.Font.SciFi
+DELETEPREMIUM.Text = "DELETE BALAKOV$"
+DELETEPREMIUM.TextColor3 = Color3.fromRGB(255, 255, 255)
+DELETEPREMIUM.TextScaled = true
+DELETEPREMIUM.TextSize = 14.000
+DELETEPREMIUM.TextWrapped = true
+
+Working_2.Name = "Working"
+Working_2.Parent = Premium_2
+Working_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Working_2.BackgroundTransparency = 1.000
+Working_2.Position = UDim2.new(0.104444444, 0, 0.0760369077, 0)
+Working_2.Size = UDim2.new(0, 200, 0, 88)
+Working_2.Font = Enum.Font.SciFi
+Working_2.Text = "WNW = Only in some games"
+Working_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Working_2.TextSize = 15.000
+
+Working_3.Name = "Working"
+Working_3.Parent = Premium_2
+Working_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Working_3.BackgroundTransparency = 1.000
+Working_3.Position = UDim2.new(0.617777765, 0, 0.0299539566, 0)
+Working_3.Size = UDim2.new(0, 200, 0, 88)
+Working_3.Font = Enum.Font.SciFi
+Working_3.Text = "NW (Not Working)"
+Working_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Working_3.TextSize = 15.000
+
+WNWBigBlocks.Name = "WNWBigBlocks"
+WNWBigBlocks.Parent = Premium_2
+WNWBigBlocks.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WNWBigBlocks.BackgroundTransparency = 1.000
+WNWBigBlocks.Position = UDim2.new(0.322222203, 0, 0.49308756, 0)
+WNWBigBlocks.Size = UDim2.new(0, 200, 0, 50)
+WNWBigBlocks.Font = Enum.Font.SciFi
+WNWBigBlocks.Text = "Spawn Big block on Spawns (WNW)"
+WNWBigBlocks.TextColor3 = Color3.fromRGB(255, 255, 255)
+WNWBigBlocks.TextSize = 14.000
+WNWBigBlocks.MouseButton1Down:Connect(function()
+	local vec = CFrame.new()
+	local plr = game.Players.LocalPlayer
+	local bre = game.ReplicatedStorage.ACS_Engine.Events.Breach
+
+	for i,v in next,workspace:GetDescendants() do
+		if v:IsA("SpawnLocation") then
+			task.spawn(bre.InvokeServer,bre,3, 
+				{Fortified={},Destroyable=workspace},vec,vec,
+				{CFrame=v.CFrame*CFrame.new(0,900,0),Size={X=2048,Y=2048,Z=2048}})
+		end
+	end
+end)
+
+WNWMoneyFkr.Name = "WNWMoneyFkr"
+WNWMoneyFkr.Parent = Premium_2
+WNWMoneyFkr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WNWMoneyFkr.BackgroundTransparency = 1.000
+WNWMoneyFkr.Position = UDim2.new(0.226666644, 0, 0.421658963, 0)
+WNWMoneyFkr.Size = UDim2.new(0, 200, 0, 50)
+WNWMoneyFkr.Font = Enum.Font.SciFi
+WNWMoneyFkr.Text = "Money F*ck*r (WNW)"
+WNWMoneyFkr.TextColor3 = Color3.fromRGB(255, 255, 255)
+WNWMoneyFkr.TextSize = 14.000
+WNWMoneyFkr.MouseButton1Down:Connect(function()
+	local Money = math.huge
+	local Players = game:GetService('Players')
+	local Remote = game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil
+	for i,v in next, Players:GetPlayers() do
+		if v ~= Players.LocalPlayer then
+			if v:FindFirstChild('PlayerData') then
+				Remote:FireServer(v:FindFirstChild('PlayerData').Money, Money)
+				Remote:FireServer(v:FindFirstChild('PlayerData').BankMoney, Money)
+			end
+		end
+	end
+end)
+
+WNWDeletarWorkspace.Name = "WNWDeletarWorkspace"
+WNWDeletarWorkspace.Parent = Premium_2
+WNWDeletarWorkspace.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WNWDeletarWorkspace.BackgroundTransparency = 1.000
+WNWDeletarWorkspace.Position = UDim2.new(0.342222184, 0, 0.350230396, 0)
+WNWDeletarWorkspace.Size = UDim2.new(0, 200, 0, 50)
+WNWDeletarWorkspace.Font = Enum.Font.SciFi
+WNWDeletarWorkspace.Text = "Deletar Workspace [.DeleteCar] (WNW)"
+WNWDeletarWorkspace.TextColor3 = Color3.fromRGB(255, 255, 255)
+WNWDeletarWorkspace.TextSize = 14.000
+WNWDeletarWorkspace.MouseButton1Down:Connect(function()
+	local Event_ = game:GetService("ReplicatedStorage").DeleteCar
+	for i,v in pairs(workspace:GetChildren()) do
+		Event_:FireServer(v)
+	end
+end)
+
+Working_4.Name = "Working"
+Working_4.Parent = Premium_2
+Working_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Working_4.BackgroundTransparency = 1.000
+Working_4.Position = UDim2.new(0.617777765, 0, 0.0760369077, 0)
+Working_4.Size = UDim2.new(0, 200, 0, 88)
+Working_4.Font = Enum.Font.SciFi
+Working_4.Text = "U (Unavailable)"
+Working_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Working_4.TextSize = 15.000
+
+Working_5.Name = "Working"
+Working_5.Parent = Premium_2
+Working_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Working_5.BackgroundTransparency = 1.000
+Working_5.Position = UDim2.new(0, 0, 0.0299539566, 0)
+Working_5.Size = UDim2.new(0, 200, 0, 88)
+Working_5.Font = Enum.Font.SciFi
+Working_5.Text = "W = Working"
+Working_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Working_5.TextSize = 15.000
+
+WPuxararmas.Name = "WPuxararmas"
+WPuxararmas.Parent = Premium_2
+WPuxararmas.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WPuxararmas.BackgroundTransparency = 1.000
+WPuxararmas.Position = UDim2.new(0.275555521, 0, 0.278801829, 0)
+WPuxararmas.Size = UDim2.new(0, 200, 0, 50)
+WPuxararmas.Font = Enum.Font.SciFi
+WPuxararmas.Text = "Get weapons from teams(W)"
+WPuxararmas.TextColor3 = Color3.fromRGB(255, 255, 255)
+WPuxararmas.TextSize = 14.000
+WPuxararmas.MouseButton1Down:Connect(function()
+	for i, v in pairs(game:GetService('Teams'):GetDescendants()) do
+		if v:IsA('Tool') then
+			v.Parent = game:GetService('Players').LocalPlayer.Backpack
+		end
+	end
+	game:GetService('Players').LocalPlayer.Character.Humanoid.Died:Connect(function()
+		for i, v in pairs(game:GetService('Players').LocalPlayer.Backpack:GetDescendants()) do
+			if v:IsA('Tool') then
+				v.Parent = game:GetService('Teams')
+			end
+		end
+		for i, v in pairs(game:GetService('Players').LocalPlayer.Character:GetDescendants()) do
+			if v:IsA('Tool') then
+				v.Parent = game:GetService('Teams')
+			end
+		end
+	end)
+end)
+
+Credits_3.Name = "Credits"
+Credits_3.Parent = Premium_2
+Credits_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_3.BackgroundTransparency = 1.000
+Credits_3.Position = UDim2.new(-0.102222219, 0, 0.917050719, 0)
+Credits_3.Size = UDim2.new(0, 200, 0, 50)
+Credits_3.Font = Enum.Font.SciFi
+Credits_3.Text = "Balakkov$#0688"
+Credits_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits_3.TextSize = 15.000
+
+IDLabel_2.Name = "IDLabel"
+IDLabel_2.Parent = Premium_2
+IDLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IDLabel_2.BackgroundTransparency = 1.000
+IDLabel_2.Position = UDim2.new(0.273333311, 0, 0.0483870693, 0)
+IDLabel_2.Size = UDim2.new(0, 200, 0, 50)
+IDLabel_2.Font = Enum.Font.SciFi
+IDLabel_2.Text = "player"
+IDLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+IDLabel_2.TextSize = 15.000
+IDLabel_2.TextWrapped = true
+
+Title_2.Name = "Title"
+Title_2.Parent = Premium_2
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Position = UDim2.new(0.275555551, 0, 0, 0)
+Title_2.Size = UDim2.new(0, 200, 0, 50)
+Title_2.Font = Enum.Font.SciFi
+Title_2.Text = "Balakov$ [v0.1]"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 25.000
+
+Version_2.Name = "Version"
+Version_2.Parent = Premium_2
+Version_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.BackgroundTransparency = 1.000
+Version_2.Position = UDim2.new(0.275555551, 0, 0.873271942, 0)
+Version_2.Size = UDim2.new(0, 200, 0, 88)
+Version_2.Font = Enum.Font.SciFi
+Version_2.Text = "[v0.1]"
+Version_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.TextSize = 15.000
+
+Working_6.Name = "Working"
+Working_6.Parent = Premium_2
+Working_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Working_6.BackgroundTransparency = 1.000
+Working_6.Position = UDim2.new(0.657777786, 0, 0.873271942, 0)
+Working_6.Size = UDim2.new(0, 200, 0, 88)
+Working_6.Font = Enum.Font.SciFi
+Working_6.Text = "Working at 30/05"
+Working_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Working_6.TextSize = 15.000
+
+UICorner_3.Parent = Premium_2
+
+-- Scripts:
+
+local function FTVH_fake_script() -- Open.Open/Close 
+	local script = Instance.new('Script', Open)
+
+	local premiumframe = script.Parent.Parent.PremiumFrame
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if premiumframe.Visible == false then
+			premiumframe.Visible = true
+		else
+			premiumframe.Visible = false
+		end
+	end)
+end
+coroutine.wrap(FTVH_fake_script)()
+local function PFYM_fake_script() -- Open_2.OpenPremium 
+	local script = Instance.new('Script', Open_2)
+
+	local premium = script.Parent.Parent.Parent.Premium
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if premium.Visible == false then
+			premium.Visible = true
+		else
+			premium.Visible = false
+		end
+	end)
+end
+coroutine.wrap(PFYM_fake_script)()
+local function HHHRWS_fake_script() -- PlayerLabel.LocalScript 
+	local script = Instance.new('LocalScript', PlayerLabel)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(HHHRWS_fake_script)()
+local function QGLMS_fake_script() -- IDLabel.LocalScript 
+	local script = Instance.new('LocalScript', IDLabel)
+
+	script.Parent.Text = game.Players.LocalPlayer.UserId
+end
+coroutine.wrap(QGLMS_fake_script)()
+local function NITTRY_fake_script() -- HIDEPREMIUM.Close 
+	local script = Instance.new('Script', HIDEPREMIUM)
+
+	local premiumframe = script.Parent.Parent.Parent.Premium
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if premiumframe.Visible == false then
+			premiumframe.Visible = true
+		else
+			premiumframe.Visible = false
+		end
+	end)
+end
+coroutine.wrap(NITTRY_fake_script)()
+local function QGOT_fake_script() -- DELETEPREMIUM.Close 
+	local script = Instance.new('Script', DELETEPREMIUM)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Premium:Destroy()
+	end)
+end
+coroutine.wrap(QGOT_fake_script)()
+local function EMHYZ_fake_script() -- IDLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', IDLabel_2)
+
+	script.Parent.Text = game.Players.LocalPlayer.UserId
+end
+coroutine.wrap(EMHYZ_fake_script)()
