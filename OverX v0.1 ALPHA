@@ -1,0 +1,1128 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local OverX = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local gamesbutton = Instance.new("TextButton")
+local commandsbutton = Instance.new("TextButton")
+local line = Instance.new("Frame")
+local games = Instance.new("Frame")
+local mm2 = Instance.new("TextButton")
+local mm2frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local eclipsehubmm2 = Instance.new("TextButton")
+local vynixusmm2 = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local treasurehunt = Instance.new("TextButton")
+local treasurehuntframe = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local comingsoon = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local bloxfruits = Instance.new("TextButton")
+local bfframe = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local hohohub = Instance.new("TextButton")
+local ripperhub = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local autochest = Instance.new("TextButton")
+local breakingpoint = Instance.new("TextButton")
+local bpframe = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local vghub = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local comingsoon_2 = Instance.new("TextButton")
+local eclipsehub = Instance.new("TextButton")
+local roleplay = Instance.new("TextButton")
+local rpframe = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local balakovpremium = Instance.new("TextButton")
+local felipemenu = Instance.new("TextButton")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local commands = Instance.new("Frame")
+local working = Instance.new("TextLabel")
+local fly = Instance.new("TextButton")
+local noclip = Instance.new("TextButton")
+local esp = Instance.new("TextButton")
+local aimbot = Instance.new("TextButton")
+local shiftrun = Instance.new("TextButton")
+local ctrltp = Instance.new("TextButton")
+local antiafk = Instance.new("TextButton")
+local notworking = Instance.new("TextLabel")
+local comingsoon_3 = Instance.new("TextButton")
+local working_2 = Instance.new("TextLabel")
+local working_3 = Instance.new("TextLabel")
+local working_4 = Instance.new("TextLabel")
+local working_5 = Instance.new("TextLabel")
+local working_6 = Instance.new("TextLabel")
+local working_7 = Instance.new("TextLabel")
+local changelogs = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local discord = Instance.new("Frame")
+local TextLabel_16 = Instance.new("TextLabel")
+local credits = Instance.new("Frame")
+local TextLabel_17 = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_18 = Instance.new("TextLabel")
+local changelogsbutton = Instance.new("TextButton")
+local discordbutton = Instance.new("TextButton")
+local TextLabel_19 = Instance.new("TextLabel")
+local middletext = Instance.new("TextButton")
+local creditsbutton = Instance.new("TextButton")
+local comingsoonbutton = Instance.new("TextButton")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local Open = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+OverX.Name = "OverX"
+OverX.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = OverX
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BackgroundTransparency = 0.200
+main.Position = UDim2.new(0.396447062, 0, 0.346287757, 0)
+main.Size = UDim2.new(0, 543, 0, 279)
+main.Visible = false
+main.Active = true
+main.Draggable = false
+
+gamesbutton.Name = "gamesbutton"
+gamesbutton.Parent = main
+gamesbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gamesbutton.BackgroundTransparency = 0.300
+gamesbutton.Position = UDim2.new(0.509698629, 0, 0.129032254, 0)
+gamesbutton.Size = UDim2.new(0, 265, 0, 19)
+gamesbutton.Font = Enum.Font.Fantasy
+gamesbutton.Text = "Games"
+gamesbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+gamesbutton.TextSize = 14.000
+
+commandsbutton.Name = "commandsbutton"
+commandsbutton.Parent = main
+commandsbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+commandsbutton.BackgroundTransparency = 0.300
+commandsbutton.Position = UDim2.new(0, 0, 0.129032254, 0)
+commandsbutton.Size = UDim2.new(0, 276, 0, 19)
+commandsbutton.Font = Enum.Font.Fantasy
+commandsbutton.Text = "Commands"
+commandsbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+commandsbutton.TextSize = 14.000
+
+line.Name = "line"
+line.Parent = main
+line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line.BorderColor3 = Color3.fromRGB(0, 0, 0)
+line.BorderSizePixel = 0
+line.Position = UDim2.new(0, 0, 0.103942655, 0)
+line.Size = UDim2.new(0, 543, 0, 0)
+
+games.Name = "games"
+games.Parent = main
+games.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+games.BackgroundTransparency = 1.000
+games.Position = UDim2.new(0, 0, 0.197132617, 0)
+games.Size = UDim2.new(0, 542, 0, 200)
+games.Visible = false
+
+mm2.Name = "mm2"
+mm2.Parent = games
+mm2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mm2.BackgroundTransparency = 0.700
+mm2.BorderSizePixel = 0
+mm2.Position = UDim2.new(0, 0, 0.0399999991, 0)
+mm2.Size = UDim2.new(0, 543, 0, 18)
+mm2.Font = Enum.Font.Fantasy
+mm2.Text = "Murder Mystery 2"
+mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2.TextSize = 20.000
+
+mm2frame.Name = "mm2frame"
+mm2frame.Parent = mm2
+mm2frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mm2frame.BackgroundTransparency = 0.100
+mm2frame.Position = UDim2.new(-0.766114175, 0, -7.44444466, 0)
+mm2frame.Size = UDim2.new(0, 323, 0, 399)
+mm2frame.Visible = false
+mm2frame.ZIndex = 0
+
+UICorner.Parent = mm2frame
+
+TextLabel.Parent = mm2frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0928792506, 0, 0.0200501252, 0)
+TextLabel.Size = UDim2.new(0, 262, 0, 50)
+TextLabel.Font = Enum.Font.Arial
+TextLabel.Text = "Murder Mystery 2 Scripts:"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+eclipsehubmm2.Name = "eclipsehubmm2"
+eclipsehubmm2.Parent = mm2frame
+eclipsehubmm2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+eclipsehubmm2.BackgroundTransparency = 0.900
+eclipsehubmm2.Position = UDim2.new(0.188854486, 0, 0.160401002, 0)
+eclipsehubmm2.Size = UDim2.new(0, 200, 0, 21)
+eclipsehubmm2.Font = Enum.Font.Arial
+eclipsehubmm2.Text = "1: Eclipse Hub"
+eclipsehubmm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+eclipsehubmm2.TextSize = 14.000
+eclipsehubmm2.MouseButton1Down:Connect(function()
+	getgenv().mainKey = "nil"
+
+	local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+vynixusmm2.Name = "vynixusmm2"
+vynixusmm2.Parent = mm2frame
+vynixusmm2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+vynixusmm2.BackgroundTransparency = 0.900
+vynixusmm2.Position = UDim2.new(0.188854486, 0, 0.215538844, 0)
+vynixusmm2.Size = UDim2.new(0, 200, 0, 21)
+vynixusmm2.Font = Enum.Font.Arial
+vynixusmm2.Text = "2: Vynixu's"
+vynixusmm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+vynixusmm2.TextSize = 14.000
+vynixusmm2.MouseButton1Down:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+TextLabel_2.Parent = mm2frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.498452008, 0, 0.160401002, 0)
+TextLabel_2.Size = UDim2.new(0, 262, 0, 21)
+TextLabel_2.Font = Enum.Font.Arial
+TextLabel_2.Text = "Working"
+TextLabel_2.TextColor3 = Color3.fromRGB(68, 255, 0)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = mm2frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.498452008, 0, 0.215538844, 0)
+TextLabel_3.Size = UDim2.new(0, 262, 0, 21)
+TextLabel_3.Font = Enum.Font.Arial
+TextLabel_3.Text = "Working"
+TextLabel_3.TextColor3 = Color3.fromRGB(68, 255, 0)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+treasurehunt.Name = "treasurehunt"
+treasurehunt.Parent = games
+treasurehunt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+treasurehunt.BackgroundTransparency = 0.700
+treasurehunt.BorderSizePixel = 0
+treasurehunt.Position = UDim2.new(0, 0, 0.170000002, 0)
+treasurehunt.Size = UDim2.new(0, 544, 0, 18)
+treasurehunt.Font = Enum.Font.Fantasy
+treasurehunt.Text = "Treasure Hunt Simulator"
+treasurehunt.TextColor3 = Color3.fromRGB(255, 255, 255)
+treasurehunt.TextSize = 20.000
+
+treasurehuntframe.Name = "treasurehuntframe"
+treasurehuntframe.Parent = treasurehunt
+treasurehuntframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+treasurehuntframe.BackgroundTransparency = 0.100
+treasurehuntframe.Position = UDim2.new(-0.766114175, 0, -7.44444466, 0)
+treasurehuntframe.Size = UDim2.new(0, 323, 0, 399)
+treasurehuntframe.Visible = false
+treasurehuntframe.ZIndex = 0
+
+UICorner_2.Parent = treasurehuntframe
+
+TextLabel_4.Parent = treasurehuntframe
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0928792506, 0, 0.0200501252, 0)
+TextLabel_4.Size = UDim2.new(0, 262, 0, 50)
+TextLabel_4.Font = Enum.Font.Arial
+TextLabel_4.Text = "Treasure Hunt Simulator Scripts:"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+comingsoon.Name = "comingsoon"
+comingsoon.Parent = treasurehuntframe
+comingsoon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+comingsoon.BackgroundTransparency = 0.900
+comingsoon.Position = UDim2.new(0.188854486, 0, 0.160401002, 0)
+comingsoon.Size = UDim2.new(0, 200, 0, 21)
+comingsoon.Font = Enum.Font.Arial
+comingsoon.Text = "1: Coming Soon"
+comingsoon.TextColor3 = Color3.fromRGB(255, 255, 255)
+comingsoon.TextSize = 14.000
+
+TextLabel_5.Parent = treasurehuntframe
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.476780176, 0, 0.160401002, 0)
+TextLabel_5.Size = UDim2.new(0, 262, 0, 21)
+TextLabel_5.Font = Enum.Font.Arial
+TextLabel_5.Text = "Not Working"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+bloxfruits.Name = "bloxfruits"
+bloxfruits.Parent = games
+bloxfruits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bloxfruits.BackgroundTransparency = 0.700
+bloxfruits.BorderSizePixel = 0
+bloxfruits.Position = UDim2.new(0, 0, 0.294999987, 0)
+bloxfruits.Size = UDim2.new(0, 543, 0, 18)
+bloxfruits.Font = Enum.Font.Fantasy
+bloxfruits.Text = "Blox Fruits"
+bloxfruits.TextColor3 = Color3.fromRGB(255, 255, 255)
+bloxfruits.TextSize = 20.000
+
+bfframe.Name = "bfframe"
+bfframe.Parent = bloxfruits
+bfframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bfframe.BackgroundTransparency = 0.100
+bfframe.Position = UDim2.new(-0.766114175, 0, -7.44444466, 0)
+bfframe.Size = UDim2.new(0, 323, 0, 399)
+bfframe.Visible = false
+bfframe.ZIndex = 0
+
+UICorner_3.Parent = bfframe
+
+TextLabel_6.Parent = bfframe
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0928792506, 0, 0.0200501252, 0)
+TextLabel_6.Size = UDim2.new(0, 262, 0, 50)
+TextLabel_6.Font = Enum.Font.Arial
+TextLabel_6.Text = "Blox Fruits Scripts:"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+hohohub.Name = "hohohub"
+hohohub.Parent = bfframe
+hohohub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hohohub.BackgroundTransparency = 0.900
+hohohub.Position = UDim2.new(0.188854486, 0, 0.160401002, 0)
+hohohub.Size = UDim2.new(0, 200, 0, 21)
+hohohub.Font = Enum.Font.Arial
+hohohub.Text = "1: HoHo Hub"
+hohohub.TextColor3 = Color3.fromRGB(255, 255, 255)
+hohohub.TextSize = 14.000
+hohohub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+ripperhub.Name = "ripperhub"
+ripperhub.Parent = bfframe
+ripperhub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ripperhub.BackgroundTransparency = 0.900
+ripperhub.Position = UDim2.new(0.188854486, 0, 0.215538844, 0)
+ripperhub.Size = UDim2.new(0, 200, 0, 21)
+ripperhub.Font = Enum.Font.Arial
+ripperhub.Text = "2: Ripper Hub"
+ripperhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ripperhub.TextSize = 14.000
+ripperhub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/BFMobile.lua'))()
+end)
+
+TextLabel_7.Parent = bfframe
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.498452008, 0, 0.160401002, 0)
+TextLabel_7.Size = UDim2.new(0, 262, 0, 21)
+TextLabel_7.Font = Enum.Font.Arial
+TextLabel_7.Text = "Working"
+TextLabel_7.TextColor3 = Color3.fromRGB(68, 255, 0)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = bfframe
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.498452008, 0, 0.215538844, 0)
+TextLabel_8.Size = UDim2.new(0, 262, 0, 21)
+TextLabel_8.Font = Enum.Font.Arial
+TextLabel_8.Text = "Working"
+TextLabel_8.TextColor3 = Color3.fromRGB(68, 255, 0)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = bfframe
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.498452008, 0, 0.26566416, 0)
+TextLabel_9.Size = UDim2.new(0, 262, 0, 21)
+TextLabel_9.Font = Enum.Font.Arial
+TextLabel_9.Text = "Working"
+TextLabel_9.TextColor3 = Color3.fromRGB(68, 255, 0)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+autochest.Name = "autochest"
+autochest.Parent = bfframe
+autochest.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+autochest.BackgroundTransparency = 0.900
+autochest.Position = UDim2.new(0.188854486, 0, 0.26566416, 0)
+autochest.Size = UDim2.new(0, 200, 0, 21)
+autochest.Font = Enum.Font.Arial
+autochest.Text = "3: Auto Chest"
+autochest.TextColor3 = Color3.fromRGB(255, 255, 255)
+autochest.TextSize = 14.000
+autochest.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/chestfarm"))()
+end)
+
+breakingpoint.Name = "breakingpoint"
+breakingpoint.Parent = games
+breakingpoint.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+breakingpoint.BackgroundTransparency = 0.700
+breakingpoint.BorderSizePixel = 0
+breakingpoint.Position = UDim2.new(0, 0, 0.414999992, 0)
+breakingpoint.Size = UDim2.new(0, 543, 0, 18)
+breakingpoint.Font = Enum.Font.Fantasy
+breakingpoint.Text = "Breaking Point"
+breakingpoint.TextColor3 = Color3.fromRGB(255, 255, 255)
+breakingpoint.TextSize = 20.000
+
+bpframe.Name = "bpframe"
+bpframe.Parent = breakingpoint
+bpframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bpframe.BackgroundTransparency = 0.100
+bpframe.Position = UDim2.new(-0.766114175, 0, -7.44444466, 0)
+bpframe.Size = UDim2.new(0, 323, 0, 399)
+bpframe.Visible = false
+bpframe.ZIndex = 0
+
+UICorner_4.Parent = bpframe
+
+TextLabel_10.Parent = bpframe
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.0928792506, 0, 0.0200501252, 0)
+TextLabel_10.Size = UDim2.new(0, 262, 0, 50)
+TextLabel_10.Font = Enum.Font.Arial
+TextLabel_10.Text = "Breaking Point Scripts:"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+vghub.Name = "vghub"
+vghub.Parent = bpframe
+vghub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+vghub.BackgroundTransparency = 0.900
+vghub.Position = UDim2.new(0.188854486, 0, 0.160401002, 0)
+vghub.Size = UDim2.new(0, 200, 0, 21)
+vghub.Font = Enum.Font.Arial
+vghub.Text = "1: V.G Hub"
+vghub.TextColor3 = Color3.fromRGB(255, 255, 255)
+vghub.TextSize = 14.000
+vghub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+TextLabel_11.Parent = bpframe
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.498452008, 0, 0.160401002, 0)
+TextLabel_11.Size = UDim2.new(0, 262, 0, 21)
+TextLabel_11.Font = Enum.Font.Arial
+TextLabel_11.Text = "Working"
+TextLabel_11.TextColor3 = Color3.fromRGB(68, 255, 0)
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+comingsoon_2.Name = "comingsoon"
+comingsoon_2.Parent = games
+comingsoon_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+comingsoon_2.BackgroundTransparency = 0.700
+comingsoon_2.BorderSizePixel = 0
+comingsoon_2.Position = UDim2.new(0, 0, 0.815000176, 0)
+comingsoon_2.Size = UDim2.new(0, 544, 0, 18)
+comingsoon_2.Font = Enum.Font.Fantasy
+comingsoon_2.Text = "Coming Soon"
+comingsoon_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+comingsoon_2.TextSize = 20.000
+
+eclipsehub.Name = "eclipsehub"
+eclipsehub.Parent = games
+eclipsehub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+eclipsehub.BackgroundTransparency = 0.700
+eclipsehub.BorderSizePixel = 0
+eclipsehub.Position = UDim2.new(0, 0, 0.535000026, 0)
+eclipsehub.Size = UDim2.new(0, 543, 0, 18)
+eclipsehub.Font = Enum.Font.Fantasy
+eclipsehub.Text = "Eclipse Hub"
+eclipsehub.TextColor3 = Color3.fromRGB(255, 255, 255)
+eclipsehub.TextSize = 20.000
+eclipsehub.MouseButton1Down:Connect(function()
+	getgenv().mainKey = "nil"
+
+	local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+roleplay.Name = "roleplay"
+roleplay.Parent = games
+roleplay.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+roleplay.BackgroundTransparency = 0.700
+roleplay.BorderSizePixel = 0
+roleplay.Position = UDim2.new(0, 0, 0.669999838, 0)
+roleplay.Size = UDim2.new(0, 543, 0, 18)
+roleplay.Font = Enum.Font.Fantasy
+roleplay.Text = "Cidades Roleplay"
+roleplay.TextColor3 = Color3.fromRGB(255, 255, 255)
+roleplay.TextSize = 20.000
+
+rpframe.Name = "rpframe"
+rpframe.Parent = roleplay
+rpframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+rpframe.BackgroundTransparency = 0.100
+rpframe.Position = UDim2.new(-0.766114175, 0, -7.44444466, 0)
+rpframe.Size = UDim2.new(0, 323, 0, 399)
+rpframe.Visible = false
+rpframe.ZIndex = 0
+
+UICorner_5.Parent = rpframe
+
+TextLabel_12.Parent = rpframe
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.0928792506, 0, 0.0200501252, 0)
+TextLabel_12.Size = UDim2.new(0, 262, 0, 50)
+TextLabel_12.Font = Enum.Font.Arial
+TextLabel_12.Text = "Cidade Roleplay Scripts:"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+balakovpremium.Name = "balakovpremium"
+balakovpremium.Parent = rpframe
+balakovpremium.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+balakovpremium.BackgroundTransparency = 0.900
+balakovpremium.Position = UDim2.new(0.188854486, 0, 0.160401002, 0)
+balakovpremium.Size = UDim2.new(0, 200, 0, 21)
+balakovpremium.Font = Enum.Font.Arial
+balakovpremium.Text = "1: Balakkov$ Premium"
+balakovpremium.TextColor3 = Color3.fromRGB(255, 255, 255)
+balakovpremium.TextSize = 14.000
+balakovpremium.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/balakov-dev/balakov-dev/main/Balakov%24Premium'))()
+end)
+
+felipemenu.Name = "felipemenu"
+felipemenu.Parent = rpframe
+felipemenu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+felipemenu.BackgroundTransparency = 0.900
+felipemenu.Position = UDim2.new(0.188854486, 0, 0.215538844, 0)
+felipemenu.Size = UDim2.new(0, 200, 0, 21)
+felipemenu.Font = Enum.Font.Arial
+felipemenu.Text = "2: Felipe Menu"
+felipemenu.TextColor3 = Color3.fromRGB(255, 255, 255)
+felipemenu.TextSize = 14.000
+felipemenu.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/DebugCrazY/FMobfuscated/main/fm.lua'))()
+end)
+
+TextLabel_13.Parent = rpframe
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.498452008, 0, 0.160401002, 0)
+TextLabel_13.Size = UDim2.new(0, 262, 0, 21)
+TextLabel_13.Font = Enum.Font.Arial
+TextLabel_13.Text = "Working"
+TextLabel_13.TextColor3 = Color3.fromRGB(68, 255, 0)
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+TextLabel_14.Parent = rpframe
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.498452008, 0, 0.215538844, 0)
+TextLabel_14.Size = UDim2.new(0, 262, 0, 21)
+TextLabel_14.Font = Enum.Font.Arial
+TextLabel_14.Text = "Working"
+TextLabel_14.TextColor3 = Color3.fromRGB(68, 255, 0)
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+commands.Name = "commands"
+commands.Parent = main
+commands.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+commands.BackgroundTransparency = 1.000
+commands.BorderSizePixel = 0
+commands.Position = UDim2.new(0, 0, 0.197132617, 0)
+commands.Size = UDim2.new(0, 542, 0, 200)
+commands.Visible = false
+
+working.Name = "working"
+working.Parent = commands
+working.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+working.BackgroundTransparency = 0.700
+working.Position = UDim2.new(0.518303573, 0, 0, 0)
+working.Size = UDim2.new(0, 256, 0, 18)
+working.Font = Enum.Font.Fantasy
+working.Text = "Working"
+working.TextColor3 = Color3.fromRGB(68, 255, 0)
+working.TextSize = 20.000
+working.TextWrapped = true
+
+fly.Name = "fly"
+fly.Parent = commands
+fly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fly.BackgroundTransparency = 0.700
+fly.Position = UDim2.new(0.0129151288, 0, 0, 0)
+fly.Size = UDim2.new(0, 270, 0, 18)
+fly.Font = Enum.Font.Fantasy
+fly.Text = "Fly"
+fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextSize = 20.000
+fly.MouseButton1Down:Connect(function()
+	
+end)
+
+noclip.Name = "noclip"
+noclip.Parent = commands
+noclip.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+noclip.BackgroundTransparency = 0.700
+noclip.Position = UDim2.new(0.0147601478, 0, 0.129999995, 0)
+noclip.Size = UDim2.new(0, 270, 0, 18)
+noclip.Font = Enum.Font.Fantasy
+noclip.Text = "NoClip"
+noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+noclip.TextSize = 20.000
+
+esp.Name = "esp"
+esp.Parent = commands
+esp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+esp.BackgroundTransparency = 0.700
+esp.Position = UDim2.new(0.0129151288, 0, 0.254999995, 0)
+esp.Size = UDim2.new(0, 270, 0, 18)
+esp.Font = Enum.Font.Fantasy
+esp.Text = "ESP"
+esp.TextColor3 = Color3.fromRGB(255, 255, 255)
+esp.TextSize = 20.000
+
+aimbot.Name = "aimbot"
+aimbot.Parent = commands
+aimbot.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+aimbot.BackgroundTransparency = 0.700
+aimbot.Position = UDim2.new(0.0129151288, 0, 0.375, 0)
+aimbot.Size = UDim2.new(0, 270, 0, 18)
+aimbot.Font = Enum.Font.Fantasy
+aimbot.Text = "Aimbot"
+aimbot.TextColor3 = Color3.fromRGB(255, 255, 255)
+aimbot.TextSize = 20.000
+
+shiftrun.Name = "shiftrun"
+shiftrun.Parent = commands
+shiftrun.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+shiftrun.BackgroundTransparency = 0.700
+shiftrun.Position = UDim2.new(0.0129151288, 0, 0.5, 0)
+shiftrun.Size = UDim2.new(0, 270, 0, 18)
+shiftrun.Font = Enum.Font.Fantasy
+shiftrun.Text = "Shift Run"
+shiftrun.TextColor3 = Color3.fromRGB(255, 255, 255)
+shiftrun.TextSize = 20.000
+
+ctrltp.Name = "ctrltp"
+ctrltp.Parent = commands
+ctrltp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ctrltp.BackgroundTransparency = 0.700
+ctrltp.Position = UDim2.new(0.0129151288, 0, 0.625, 0)
+ctrltp.Size = UDim2.new(0, 270, 0, 18)
+ctrltp.Font = Enum.Font.Fantasy
+ctrltp.Text = "Ctrl + Click TP"
+ctrltp.TextColor3 = Color3.fromRGB(255, 255, 255)
+ctrltp.TextSize = 20.000
+
+antiafk.Name = "antiafk"
+antiafk.Parent = commands
+antiafk.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+antiafk.BackgroundTransparency = 0.700
+antiafk.Position = UDim2.new(0.0129151288, 0, 0.75, 0)
+antiafk.Size = UDim2.new(0, 270, 0, 18)
+antiafk.Font = Enum.Font.Fantasy
+antiafk.Text = "Anti AFK"
+antiafk.TextColor3 = Color3.fromRGB(255, 255, 255)
+antiafk.TextSize = 20.000
+
+notworking.Name = "notworking"
+notworking.Parent = commands
+notworking.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+notworking.BackgroundTransparency = 0.700
+notworking.Position = UDim2.new(0.512768507, 0, 0.875, 0)
+notworking.Size = UDim2.new(0, 256, 0, 18)
+notworking.Font = Enum.Font.Fantasy
+notworking.Text = "Not Working"
+notworking.TextColor3 = Color3.fromRGB(255, 0, 0)
+notworking.TextSize = 20.000
+notworking.TextWrapped = true
+
+comingsoon_3.Name = "comingsoon"
+comingsoon_3.Parent = commands
+comingsoon_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+comingsoon_3.BackgroundTransparency = 0.700
+comingsoon_3.Position = UDim2.new(0.0129151288, 0, 0.875, 0)
+comingsoon_3.Size = UDim2.new(0, 270, 0, 18)
+comingsoon_3.Font = Enum.Font.Fantasy
+comingsoon_3.Text = "Coming Soon"
+comingsoon_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+comingsoon_3.TextSize = 20.000
+
+working_2.Name = "working"
+working_2.Parent = commands
+working_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+working_2.BackgroundTransparency = 0.700
+working_2.Position = UDim2.new(0.518303573, 0, 0.129999995, 0)
+working_2.Size = UDim2.new(0, 256, 0, 18)
+working_2.Font = Enum.Font.Fantasy
+working_2.Text = "Working"
+working_2.TextColor3 = Color3.fromRGB(68, 255, 0)
+working_2.TextSize = 20.000
+working_2.TextWrapped = true
+
+working_3.Name = "working"
+working_3.Parent = commands
+working_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+working_3.BackgroundTransparency = 0.700
+working_3.Position = UDim2.new(0.518303573, 0, 0.254999995, 0)
+working_3.Size = UDim2.new(0, 256, 0, 18)
+working_3.Font = Enum.Font.Fantasy
+working_3.Text = "Working"
+working_3.TextColor3 = Color3.fromRGB(68, 255, 0)
+working_3.TextSize = 20.000
+working_3.TextWrapped = true
+
+working_4.Name = "working"
+working_4.Parent = commands
+working_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+working_4.BackgroundTransparency = 0.700
+working_4.Position = UDim2.new(0.518303573, 0, 0.38499999, 0)
+working_4.Size = UDim2.new(0, 256, 0, 18)
+working_4.Font = Enum.Font.Fantasy
+working_4.Text = "Working"
+working_4.TextColor3 = Color3.fromRGB(68, 255, 0)
+working_4.TextSize = 20.000
+working_4.TextWrapped = true
+
+working_5.Name = "working"
+working_5.Parent = commands
+working_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+working_5.BackgroundTransparency = 0.700
+working_5.Position = UDim2.new(0.518303573, 0, 0.5, 0)
+working_5.Size = UDim2.new(0, 256, 0, 18)
+working_5.Font = Enum.Font.Fantasy
+working_5.Text = "Working"
+working_5.TextColor3 = Color3.fromRGB(68, 255, 0)
+working_5.TextSize = 20.000
+working_5.TextWrapped = true
+
+working_6.Name = "working"
+working_6.Parent = commands
+working_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+working_6.BackgroundTransparency = 0.700
+working_6.Position = UDim2.new(0.518303573, 0, 0.625, 0)
+working_6.Size = UDim2.new(0, 256, 0, 18)
+working_6.Font = Enum.Font.Fantasy
+working_6.Text = "Working"
+working_6.TextColor3 = Color3.fromRGB(68, 255, 0)
+working_6.TextSize = 20.000
+working_6.TextWrapped = true
+
+working_7.Name = "working"
+working_7.Parent = commands
+working_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+working_7.BackgroundTransparency = 0.700
+working_7.Position = UDim2.new(0.518303573, 0, 0.75, 0)
+working_7.Size = UDim2.new(0, 256, 0, 18)
+working_7.Font = Enum.Font.Fantasy
+working_7.Text = "Working"
+working_7.TextColor3 = Color3.fromRGB(68, 255, 0)
+working_7.TextSize = 20.000
+working_7.TextWrapped = true
+
+changelogs.Name = "changelogs"
+changelogs.Parent = main
+changelogs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+changelogs.BackgroundTransparency = 1.000
+changelogs.BorderSizePixel = 0
+changelogs.Position = UDim2.new(0, 0, 0.197132617, 0)
+changelogs.Size = UDim2.new(0, 543, 0, 198)
+changelogs.Visible = false
+
+TextLabel_15.Parent = changelogs
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.318600357, 0, 0.297979772, 0)
+TextLabel_15.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_15.Font = Enum.Font.Fantasy
+TextLabel_15.Text = "Coming Soon"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 20.000
+
+discord.Name = "discord"
+discord.Parent = main
+discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discord.BackgroundTransparency = 1.000
+discord.BorderSizePixel = 0
+discord.Position = UDim2.new(0, 0, 0.197132617, 0)
+discord.Size = UDim2.new(0, 543, 0, 198)
+discord.Visible = false
+
+TextLabel_16.Parent = discord
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.318600357, 0, 0.297979772, 0)
+TextLabel_16.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_16.Font = Enum.Font.Fantasy
+TextLabel_16.Text = "discord.gg/VMvGVaRYwR"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 20.000
+
+credits.Name = "credits"
+credits.Parent = main
+credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credits.BackgroundTransparency = 1.000
+credits.BorderSizePixel = 0
+credits.Position = UDim2.new(0, 0, 0.197132617, 0)
+credits.Size = UDim2.new(0, 543, 0, 198)
+credits.Visible = false
+
+TextLabel_17.Parent = credits
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.318600357, 0, 0.297979772, 0)
+TextLabel_17.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_17.Font = Enum.Font.Fantasy
+TextLabel_17.Text = "OverX Exploit"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 20.000
+
+UICorner_6.Parent = main
+
+TextLabel_18.Parent = main
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.350699097, 0, 0.0250896066, 0)
+TextLabel_18.Size = UDim2.new(0, 98, 0, 22)
+TextLabel_18.Font = Enum.Font.Fantasy
+TextLabel_18.Text = "OVER X HUB"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+
+changelogsbutton.Name = "changelogsbutton"
+changelogsbutton.Parent = main
+changelogsbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+changelogsbutton.BackgroundTransparency = 0.300
+changelogsbutton.Position = UDim2.new(0.0128913447, 0, 0.910394371, 0)
+changelogsbutton.Size = UDim2.new(0, 138, 0, 24)
+changelogsbutton.Font = Enum.Font.Fantasy
+changelogsbutton.Text = "Changelogs"
+changelogsbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+changelogsbutton.TextSize = 14.000
+
+discordbutton.Name = "discordbutton"
+discordbutton.Parent = main
+discordbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+discordbutton.BackgroundTransparency = 0.300
+discordbutton.Position = UDim2.new(0.266604692, 0, 0.910394311, 0)
+discordbutton.Size = UDim2.new(0, 132, 0, 24)
+discordbutton.Font = Enum.Font.Fantasy
+discordbutton.Text = "Discord"
+discordbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+discordbutton.TextSize = 14.000
+
+TextLabel_19.Parent = main
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0, 0, 0.0250896066, 0)
+TextLabel_19.Size = UDim2.new(0, 38, 0, 22)
+TextLabel_19.Font = Enum.Font.Fantasy
+TextLabel_19.Text = "OX"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
+
+middletext.Name = "middletext"
+middletext.Parent = main
+middletext.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+middletext.BackgroundTransparency = 1.000
+middletext.BorderColor3 = Color3.fromRGB(27, 42, 53)
+middletext.Position = UDim2.new(0.255838931, 0, 0.465949804, 0)
+middletext.Size = UDim2.new(0, 265, 0, 19)
+middletext.Font = Enum.Font.Fantasy
+middletext.Text = "[UPDATED] Latest Version 08/13/2022"
+middletext.TextColor3 = Color3.fromRGB(255, 255, 255)
+middletext.TextSize = 25.000
+middletext.TextTransparency = 0.900
+
+creditsbutton.Name = "creditsbutton"
+creditsbutton.Parent = main
+creditsbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+creditsbutton.BackgroundTransparency = 0.300
+creditsbutton.Position = UDim2.new(0.509982586, 0, 0.910394311, 0)
+creditsbutton.Size = UDim2.new(0, 132, 0, 24)
+creditsbutton.Font = Enum.Font.Fantasy
+creditsbutton.Text = "Credits"
+creditsbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+creditsbutton.TextSize = 14.000
+
+comingsoonbutton.Name = "comingsoonbutton"
+comingsoonbutton.Parent = main
+comingsoonbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+comingsoonbutton.BackgroundTransparency = 0.300
+comingsoonbutton.Position = UDim2.new(0.753076494, 0, 0.910394371, 0)
+comingsoonbutton.Size = UDim2.new(0, 126, 0, 24)
+comingsoonbutton.Font = Enum.Font.Fantasy
+comingsoonbutton.Text = "Coming Soon"
+comingsoonbutton.TextColor3 = Color3.fromRGB(255, 0, 0)
+comingsoonbutton.TextSize = 14.000
+
+TextLabel_20.Parent = main
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.842411816, 0, 0.0250896066, 0)
+TextLabel_20.Size = UDim2.new(0, 98, 0, 22)
+TextLabel_20.Font = Enum.Font.Fantasy
+TextLabel_20.Text = "ALPHA V0.1"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+
+TextLabel_21.Parent = main
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.483295858, 0, 0.0250896066, 0)
+TextLabel_21.Size = UDim2.new(0, 98, 0, 22)
+TextLabel_21.Font = Enum.Font.Fantasy
+TextLabel_21.Text = "PREMIUM"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_21.TextSize = 14.000
+
+TextLabel_22.Parent = main
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.0699815825, 0, 0.71684587, 0)
+TextLabel_22.Size = UDim2.new(0, 462, 0, 54)
+TextLabel_22.Font = Enum.Font.Fantasy
+TextLabel_22.Text = "\\nThis script is in its current in beta and bugs can often be noticed. Report it on our Discord!\\n"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextTransparency = 0.900
+TextLabel_22.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = OverX
+Open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open.BackgroundTransparency = 0.500
+Open.Position = UDim2.new(-0.000283896574, 0, -0.000982262543, 0)
+Open.Size = UDim2.new(0, 32, 0, 32)
+Open.Font = Enum.Font.SciFi
+Open.Text = "OX"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 25.000
+Open.TextWrapped = true
+
+UICorner_7.Parent = Open
+
+-- Scripts:
+
+local function WJBV_fake_script() -- gamesbutton.Open 
+	local script = Instance.new('Script', gamesbutton)
+
+	local frame = script.Parent.Parent.games
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+	else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(WJBV_fake_script)()
+local function FPVQCFK_fake_script() -- commandsbutton.Open 
+	local script = Instance.new('Script', commandsbutton)
+
+	local frame = script.Parent.Parent.commands
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+	else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(FPVQCFK_fake_script)()
+local function XWPE_fake_script() -- mm2.Open 
+	local script = Instance.new('Script', mm2)
+
+	local frame = script.Parent.mm2frame
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(XWPE_fake_script)()
+local function OBJAFWP_fake_script() -- treasurehunt.Open 
+	local script = Instance.new('Script', treasurehunt)
+
+	local frame = script.Parent.treasurehuntframe
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(OBJAFWP_fake_script)()
+local function NJIPRFQ_fake_script() -- bloxfruits.Open 
+	local script = Instance.new('Script', bloxfruits)
+
+	local frame = script.Parent.bfframe
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(NJIPRFQ_fake_script)()
+local function SRBYUD_fake_script() -- breakingpoint.Open 
+	local script = Instance.new('Script', breakingpoint)
+
+	local frame = script.Parent.bpframe
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(SRBYUD_fake_script)()
+local function SYQGEAO_fake_script() -- roleplay.Open 
+	local script = Instance.new('Script', roleplay)
+
+	local frame = script.Parent.rpframe
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(SYQGEAO_fake_script)()
+local function HAJFUKA_fake_script() -- changelogsbutton.Open 
+	local script = Instance.new('Script', changelogsbutton)
+
+	local frame = script.Parent.Parent.changelogs
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+	else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(HAJFUKA_fake_script)()
+local function OVUNQM_fake_script() -- discordbutton.Open 
+	local script = Instance.new('Script', discordbutton)
+
+	local frame = script.Parent.Parent.discord
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+	else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(OVUNQM_fake_script)()
+local function VGPGYV_fake_script() -- creditsbutton.Open 
+	local script = Instance.new('Script', creditsbutton)
+
+	local frame = script.Parent.Parent.credits
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+	else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(VGPGYV_fake_script)()
+local function MWMQ_fake_script() -- comingsoonbutton.Open 
+	local script = Instance.new('Script', comingsoonbutton)
+
+	local frame = script.Parent.Parent.credits
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+	else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(MWMQ_fake_script)()
+local function MWHCVXP_fake_script() -- Open.Open/Close 
+	local script = Instance.new('Script', Open)
+
+	local main = script.Parent.Parent.main
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if main.Visible == false then
+			main.Visible = true
+		else
+			main.Visible = false
+	
+		end
+	end)
+end
+coroutine.wrap(MWHCVXP_fake_script)()
